@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(cors());
-app.use('/images', imageRoute)
+app.use('/api/images', imageRoute)
 
 app.use('/images', express.static('images'));
 // PORT
